@@ -1,0 +1,9 @@
+schemaVersion: 2.3.0
+metadata:
+  name: camel-quarkus-java21
+components:
+  - name: maven
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel9:latest
+      memoryLimit: 3Gi
+      mountSources: true
