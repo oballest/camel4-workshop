@@ -1,0 +1,6 @@
+- route:
+   id: "direct-route"
+   from:
+     uri: "direct:test-route"
+     steps:
+       - log: "Llamado a ruta ${body}"
