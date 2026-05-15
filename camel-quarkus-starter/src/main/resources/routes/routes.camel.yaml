@@ -1,16 +1,4 @@
 - route:
-   id: "direct-route"
-   from:
-     uri: "direct:test-route"
-     steps:
-       - log: "Llamado a ruta ${body}"
-- route:
-    id: "logArchivos"
-    from: 
-      uri: "direct:logArchivos" 
-      steps:
-        - log: "Realizando log de mensaje ${exchangeId} con payload ${body}"
-- route:
     from:
       uri: "direct:ruta-prueba"
       steps:
