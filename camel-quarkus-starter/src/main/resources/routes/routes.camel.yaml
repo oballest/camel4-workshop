@@ -1,0 +1,6 @@
+- route:
+    id: "logArchivos"
+    from: 
+      uri: "direct:logArchivos" 
+      steps:
+        - log: "Realizando log de mensaje ${exchangeId} con payload ${body}"
