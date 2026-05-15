@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import io.quarkus.test.junit.QuarkusTest;
 
 
-public class CamelQuarkusRouteTest extends CamelQuarkusTestSupport{
+public class CamelQuarkusRouteTest{
     
 
     void testRutaIntegración() throws InterruptedException{
